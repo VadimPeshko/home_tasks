@@ -306,7 +306,10 @@
      */
   [hidden] {
     display: none; }
-
+    
+body {
+    color: #000;
+}
 .outher {
     padding-left: 10px;
     padding-right: 10px;
@@ -324,13 +327,15 @@ h1 {
 .first {
     width: 100%;
     table-layout: fixed;  
-}  
+} 
+
 .first th {
     font-size: 21px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid black;
 }
+
 .first td {
     padding: 5px;
     text-align: center;
