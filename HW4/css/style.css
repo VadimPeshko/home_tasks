@@ -1,0 +1,10 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #000;    
+}
+
+.inner {
+  max-width: 1290px;
+  margin: 0 auto;
+}
