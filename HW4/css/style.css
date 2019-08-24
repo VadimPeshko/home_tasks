@@ -8,3 +8,158 @@ body {
   max-width: 1290px;
   margin: 0 auto;
 }
+
+.header {
+  width: 100%;
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo span {
+  color: #fff;
+}
+
+.links {
+  display: flex;
+  font-size: 21px;
+}
+
+.links li {
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+.links li:last-of-type {
+  padding-right: 0;
+}
+
+.links li > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.links li > a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.news_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news_content a {
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+  color: #004d99;
+  text-decoration: none;
+}
+
+.news_content a:hover {
+  text-decoration: underline;
+}
+
+.news_box {
+  width: 100%;
+  overflow: hidden;
+}
+
+.description {
+  width: 412px;
+}
+
+.footer {
+  width: 100%;
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.copy {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.people_img {
+  background: url(../image/img1.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  width: 50%;
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+h3 {
+  width: 100%;
+  font-size: 28px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.people_news_text {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.news_description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #888;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.news_text {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.people_news_img img {
+  width: 100%;
+}
