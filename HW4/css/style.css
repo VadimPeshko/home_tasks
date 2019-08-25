@@ -87,6 +87,11 @@ h2 {
 }
 
 .news_box {
+  width: 412px;
+  overflow: hidden;
+}
+
+.news_img img {
   width: 100%;
   overflow: hidden;
 }
@@ -112,7 +117,7 @@ h2 {
 }
 
 .people_img {
-  background: url(../image/img1.jpg) no-repeat 50% 50%;
+  background: url(../image/min_img/img1.png) no-repeat 50% 50%;
   background-size: cover;
   position: relative;
 }
@@ -162,4 +167,28 @@ h3 {
 
 .people_news_img img {
   width: 100%;
+}
+
+@media (max-width: 1290px) {
+
+  .news_content {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .header_content {
+    flex-direction: column;
+  }
+
+  .description {
+    width: 100%;
+}
 }
