@@ -4,9 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Home Work 5</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <script src="./js/main.js"></script>
 </head>
 <body>
+  <section class="outer">
+    <div class="inner">
+      <h1>Зарегестрируйтесь</h1>
+      <form id="myform">
+        <label for="name">Имя</label>
+        <input type="text" name="name" id="name" class="item" placeholder="Ваше имя">
+        <label for="phone">Телефон</label>
+        <input type="text" name="phone" id="phone" class="item" placeholder="Введите ноиер">
+        <label for="email">E-mail</label>
+        <input type="text" name="email" id="email" class="item" placeholder="Введите E-mail">
+        <button type="submit" class="btn" id="button">Отправить</button>
+        <button type="reset" class="btn" >Сброс</button>
+      </form>
+    </div>
+  </section>
+  <script>
+    let form = document.getElementById('myform'),
+        btn = document.getElementById('button'),
+        item = document.querySelectorAll('.item'),
+        name = document.getElementById('name'),
+        phone = document.getElementById('phone'),
+        mail = document.getElementById('email');
+    
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      removeError();
+      removeSuccess();
+      checkName();
+      checkPhone();
+      checkMail();
+});
+
+    form.addEventListener('reset', function(event){
+      removeError();
+      removeSuccess();  
+});
+
+  </script>
   
 </body>
 </html>
