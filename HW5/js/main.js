@@ -16,7 +16,7 @@ let checkName = function(){
 }
 
 let checkPhone = function(){
-  if(phone.value.length < 4 && isNaN){
+  if(phone.value.length < 4 || isNaN(phone.value)){
     let error = document.createElement('div');
     error.className = 'error'
     error.textContent = 'Введите номер';
