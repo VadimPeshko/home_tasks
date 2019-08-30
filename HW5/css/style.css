@@ -38,17 +38,28 @@ label {
 }
 
 .btn {
+  display: block;
+  width: 100%;
   text-align: center;
   outline: none;
   border: none;
   border-radius: 5px;
   background-color: #fff;
   padding: 5px 20px;
-  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .btn:hover {
   cursor: pointer;
   color: #fff;
   background-color: #AFAFEB;
+}
+
+h3 {
+  color: #fff;
+}
+
+.radio {
+  margin-right: 20px;
 }

@@ -8,18 +8,28 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/normalize.css">
   <script src="./js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
   <section class="outer">
     <div class="inner">
       <h1>Зарегестрируйтесь</h1>
-      <form id="myform">
+      <form id="myform" action="http://fe.it-academy.by/TestForm.php" method="GET">
         <label for="name">Имя</label>
         <input type="text" name="name" id="name" class="item" placeholder="Ваше имя">
+        <label for="pass">Пароль</label>
+        <input type="password" name="pass" id="pass" class="item" placeholder="Введите пароль">
+        <label for="pass">Подтвердите пароль</label>
+        <input type="password" name="pass" id="pass_two" class="item" placeholder="Введите пароль">
         <label for="phone">Телефон</label>
-        <input type="text" name="phone" id="phone" class="item" placeholder="Введите ноиер">
+        <input type="text" name="phone" id="phone" class="item" placeholder="+375 (33) 111-11-11">
         <label for="email">E-mail</label>
         <input type="text" name="email" id="email" class="item" placeholder="Введите E-mail">
+        <h3>Выберите пол:</h3>
+        <label for="man">Мужчина</label>
+        <input type="radio" name="sex" value="man" id="man" class="radio">
+        <label for="woman">Женщина</label>
+        <input type="radio" name="sex" value="woman" id="woman" class="radio">
         <button type="submit" class="btn" id="button">Отправить</button>
         <button type="reset" class="btn" >Сброс</button>
       </form>
@@ -28,25 +38,22 @@
   <script>
     let form = document.getElementById('myform'),
         btn = document.getElementById('button'),
-        item = document.querySelectorAll('.item'),
-        name = document.getElementById('name'),
-        phone = document.getElementById('phone'),
-        mail = document.getElementById('email');
+        item = document.querySelectorAll('.item');
     
     form.addEventListener('submit', function (event) {
       event.preventDefault();
       removeError();
       removeSuccess();
       checkName();
+      checkPass();
+      checkPass_two();
       checkPhone();
       checkMail();
 });
-
     form.addEventListener('reset', function(event){
       removeError();
       removeSuccess();  
 });
-
-  </script> 
+  </script>
 </body>
 </html>
