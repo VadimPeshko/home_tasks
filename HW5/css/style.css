@@ -35,6 +35,10 @@ h1 {
   color: red;
 }
 
+.item:valid {
+  color: green;
+}
+
 label {
   font-size: 18px;
   font-weight: 600px;
