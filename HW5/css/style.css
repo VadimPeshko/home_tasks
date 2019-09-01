@@ -63,3 +63,13 @@ h3 {
 .radio {
   margin-right: 20px;
 }
+
+.check {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.text {
+  display: block;
+  width: 100%;
+}
