@@ -14,31 +14,91 @@
       <h1>Зарегестрируйтесь</h1>
       <form id="myform" action="http://fe.it-academy.by/TestForm.php" method="GET">
         <label for="name">Имя</label>
-        <input type="text" name="name" id="name" class="item" placeholder="Ваше имя" required pattern="[A-Za-z]{0,12}" title="Имя долбжно содержать до 12 английских символов">
+        <input type="text" 
+               name="name" 
+               id="name" 
+               class="item" 
+               placeholder="Ваше имя" 
+               required 
+               pattern="[A-Za-z]{0,12}" 
+               title="Имя долбжно содержать до 12 английских символов">
         <label for="pass">Пароль</label>
-        <input type="password" name="pass" id="pass" class="item" placeholder="Введите пароль" required minlength="7" maxlength="7" pattern="[A-Za-z0-9]{0,7}" title="Пароль должен состоять из 7 английских символов или цифр">
+        <input type="password" 
+               name="pass" 
+               id="pass" 
+               class="item" 
+               placeholder="Введите пароль" 
+               required 
+               minlength="7" 
+               maxlength="7" 
+               pattern="[A-Za-z0-9]{0,7}" 
+               title="Пароль должен состоять из 7 английских символов или цифр">
         <label for="phone">Телефон</label>
-        <input type="text" name="phone" id="phone" class="item" placeholder="+375 (33) 111-11-11" required pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" title="Введите номер телефона в формате +375 (XX) XXX-XX-XX">
+        <input type="text" 
+               name="phone" 
+               id="phone" 
+               class="item" 
+               placeholder="+375 (33) 111-11-11" 
+               required 
+               pattern="^\+375 \((17|29|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" 
+               title="Введите номер телефона в формате +375 (XX) XXX-XX-XX">
         <label for="email">E-mail</label>
-        <input type="text" name="email" id="email" class="item" placeholder="Введите E-mail" required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
+        <input type="text" 
+               name="email" 
+               id="email" 
+               class="item" 
+               placeholder="Введите E-mail" 
+               required 
+               pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
         <h3>Выберите пол:</h3>
         <label for="man">Мужчина</label>
-        <input type="radio" name="sex" value="man" id="man" class="radio">
+        <input type="radio" 
+               name="sex" 
+               value="man" 
+               id="man" 
+               class="radio">
         <label for="woman">Женщина</label>
-        <input type="radio" name="sex" value="woman" id="woman" class="radio">
+        <input type="radio" 
+               name="sex" 
+               value="woman" 
+               id="woman" 
+               class="radio">
         <h3>Выбирите интересующие категории:</h3>
         <label for="food">Еда</label>
-        <input type="checkbox" name="food" id="food" class="check" value="food">
+        <input type="checkbox" 
+               name="food" 
+               id="food" 
+               class="check" 
+               value="food">
         <label for="drinks">Напитки</label>
-        <input type="checkbox" name="drinks" id="drinks" class="check" value="drinks">
+        <input type="checkbox" 
+               name="drinks" 
+               id="drinks" 
+               class="check" 
+               value="drinks">
         <label for="car">Машины</label>
-        <input type="checkbox" name="car" id="car" class="check" value="car">
+        <input type="checkbox" 
+               name="car" 
+               id="car" 
+               class="check" 
+               value="car">
         <label for="travel">Путешествие</label>
-        <input type="checkbox" name="travel" id="travel" class="check" value="travel">
+        <input type="checkbox" 
+               name="travel" 
+               id="travel" 
+               class="check" 
+               value="travel">
         <label for="net">Интернет</label>
-        <input type="checkbox" name="net" id="net" class="check" value="net">
+        <input type="checkbox" 
+               name="net" 
+               id="net" 
+               class="check" 
+               value="net">
         <label for="text">Оставьте комментарий</label>
-        <textarea name="text" id="text" class="text" maxlength="500"></textarea>
+        <textarea name="text" 
+                  id="text" 
+                  class="text" 
+                  maxlength="500"></textarea>
         <button type="submit" class="btn" id="button">Отправить</button>
         <button type="reset" class="btn" >Сброс</button>
       </form>
