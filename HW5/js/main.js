@@ -92,6 +92,14 @@ let checkMail = function(){
   }
 }
 
+let createMsg = function(className, text, style, path){
+  const elem = document.createElement('div');
+  elem.className = 'error';
+  elem.textContent = text;
+  elem.style.cssText = 'font-size: 18px; font-weight: 400; color: #EB5368; margin-bottom: 20px';
+  elem.insertAdjacentElement('afterend', elem);
+}
+
 let removeError = function(){
   let errors = document.querySelectorAll('.error');
     for (var i = 0; i < errors.length; i++) {

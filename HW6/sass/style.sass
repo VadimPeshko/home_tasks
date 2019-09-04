@@ -1,0 +1,40 @@
+/* fonts */
+@mixin font-ubuntu
+  font-family: 'Ubuntu', sans-serif
+
+@mixin font-fira
+  font-family: 'Fira Sans Condensed', sans-serif
+
+.outer
+  padding-left: 20px
+  padding-right: 20px     
+
+.inner
+  max-width: 900px
+  margin: 0 auto
+
+.content-song
+  border-top: 1px solid #cecece
+  border-bottom: 1px solid #cecece
+  margin-top: 50px
+  margin-bottom: 50px
+  &__name
+    @include font-ubuntu()
+    font-size: 36px
+    text-transform: capitalize
+    text-align: left
+  &__text
+    @include font-fira
+    font-size: 18px
+    line-height: 36px
+    span
+      font-size: 21px
+      font-weight: 500
+  &__title
+    @include font-ubuntu()
+    font-size: 16px
+    padding-top: 30px
+    padding-bottom: 30px
+     
+    
+  
