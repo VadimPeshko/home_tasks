@@ -1,0 +1,134 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url("../img/bg-img.png") 0 0;
+  color: #fff;
+}
+
+.outer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  position: relative;
+}
+
+.content-left {
+  position: fixed;
+  width: 400px;
+  height: 300px;
+  top: 60px;
+  overflow: hidden;
+}
+
+.content-left .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.content-left .social a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+.content-left .social a:hover {
+  text-decoration: underline;
+}
+
+.content-left .social-link {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url("../img/sprite-img.png") 0 0 no-repeat;
+}
+
+.content-left .social .fb {
+  background-position: -24px -20px;
+}
+
+.content-left .social .fb:hover {
+  background-position: -24px -110px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-left .social .twitter {
+  background-position: -106px -20px;
+}
+
+.content-left .social .twitter:hover {
+  background-position: -106px -110px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-left .social .vk {
+  background-position: -272px -20px;
+}
+
+.content-left .social .vk:hover {
+  background-position: -272px -110px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-left .social .youtube {
+  background-position: -435px -20px;
+}
+
+.content-left .social .youtube:hover {
+  background-position: -435px -110px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-left .social .instagram {
+  background-position: -517px -20px;
+}
+
+.content-left .social .instagram:hover {
+  background-position: -517px -110px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-left .hidden {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  bottom: -50px;
+  text-align: center;
+}
+
+.content-left:hover {
+  height: 400px;
+  overflow: visible;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-right {
+  position: absolute;
+  top: 40px;
+  left: 450px;
+  right: 0;
+}
+/*# sourceMappingURL=style.css.map */
