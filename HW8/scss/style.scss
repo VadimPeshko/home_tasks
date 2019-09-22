@@ -1,0 +1,228 @@
+@mixin font-ubuntu {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+$color-main: #fff;
+$screen-md: 768px;
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  @include font-ubuntu();
+  font-size: 14px;
+}
+
+.clearfix::after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  background: #457fca;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.header-top {
+  padding: 25px 0px;
+  &__logo {
+    width: 400px;
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+    color: #ff661f;
+    span {
+      color: $color-main;
+    }
+    @media(max-width: 1100px) {
+      width: 20%;
+    }
+    @media(max-width: $screen-md) {
+      float: none;
+      text-align: center;
+      width: 100%;
+      padding-bottom: 20px;
+    }
+  }
+  &__menu {
+    font-size: 16px;
+    font-weight: 500;
+    list-style-type: none;
+    li {
+      float: left;
+      padding-right: 20px;
+      @media(max-width: $screen-md) {
+        text-align: center;
+        display: block;
+        width: 100%;
+        float: none;
+        padding-right: 0px;
+      }
+    }
+    li a {
+      text-decoration: none;
+      color: $color-main;
+    }
+    :hover {
+      color: #f57235;
+    }
+    @media(max-width: $screen-md) {
+      text-align: center;
+      display: block;
+      width: 100%;
+      padding-bottom: 20px;
+    }
+  }
+  &__contact {
+    width: 400px;
+    font-size: 16px;
+    font-weight: 500;
+    color: $color-main;
+    text-align: right;
+    float: right;
+    @media(max-width: 1100px) {
+      width: 20%;
+    }
+    @media(max-width: $screen-md) {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+.main { 
+  margin-top: 20px;
+}
+.content {
+  &-left {
+    width: 20%;
+    float: left;
+    &__menu {
+      list-style-type: none;
+      background: #457fca;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      li {
+        border-bottom: 1px solid #fff;
+        transition: all 0.2s;
+      }
+      li a {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        color: $color-main;
+        @media(max-width: $screen-md) {
+          padding-left: 0px;
+        }
+      }
+      :hover {
+        background-color: #ff661f;
+      }
+    }
+    @media(max-width: $screen-md) {
+      width: 100%;
+      float: none;
+      text-align: center;
+    }
+  }
+  &-right {
+    width: 80%;
+    float: right;
+    @media(max-width: $screen-md) {
+      width: 100%;
+      float: none;
+    }
+    &__goods {
+      padding-left: 50px;
+      @media(max-width: $screen-md) {
+        padding-left: 0px;
+      }
+    }
+    &__card {
+      width: 20%;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      padding: 20px;
+      transition: all 0.2s;
+      float: left;
+      margin-right: 40px;
+      margin-bottom: 10px;
+      &:hover {
+        box-shadow: 3px 5px 10px 0px black;
+        cursor: pointer;
+      }
+      &:last-of-type {
+        margin-right: 0px;
+      }
+      @media(max-width: 1100px) {
+        width: 40%;
+        margin-right: 10px;
+        &:last-of-type {
+          margin-right: 0px;
+        }
+      }
+      @media(max-width: $screen-md) {
+        width: 100%;
+      }
+    }
+    &__img {
+      img {
+        width: 100%;
+      }
+    }
+    &__title {
+      width: 100%;
+      padding-top: 20px;
+      font-size: 14px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    &__price {
+      width: 100%;
+      text-align: center;
+      padding-top: 10px;
+      color: #d9622b;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    &__btn {
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+      border: none;
+      background-color: #ff661f;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 3px;
+      cursor: pointer;
+      &:hover {
+        background-color: darken($color: #ff661f, $amount: 10%);
+      }
+    }
+  }
+}
+
+.footer {
+  background: #457fca;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  &-content {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: $color-main;
+  }
+}
