@@ -95,7 +95,7 @@ body {
 }
 
 .header-main__content {
-  background: url(/img/bg-img.jpg) no-repeat 50% 50%;
+  background: url("../img/bg-img.jpg") no-repeat 50% 50%;
   background-size: cover;
   position: relative;
   height: 75vh;
