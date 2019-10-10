@@ -1,0 +1,20 @@
+{
+  "name": "test-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass src/styles.scss -o dist",
+    "css:prod": "node-sass src/styles.scss -o dist --output-style compressed",
+    "css:watch": "npm run css && node-sass src/styles.scss -wo dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
