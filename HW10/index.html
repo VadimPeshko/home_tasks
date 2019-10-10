@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-0c38nfCMzF8w8DBI+9nTWzApOpr1z0WuyswL4y6x/2ZTtmj/Ki5TedKeUcFusC/k" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap" rel="stylesheet">
+  <title>Home work 10</title>
+</head>
+<body>
+  
+    <!--Header-->
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-3 col-sm-12">
+            <a href="index.html"><img src="./img/logo.svg" alt="logo" class="logo"></a>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <div class="header-contacts">
+              <p class="header-contacts__title">Телефон для связи</p>
+              <div class="header-contacts__phone"><span>+375 (29) </span>686-05-54</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <div class="header-search">
+              <form action="" class="header-search__form">
+                <input type="text" class="header-search__input" placeholder="Введите название товара">
+                <input type="submit" value=" " class="header-search__btn">
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <div class="header-cart">
+              <img src="./img/shopping-cart.svg" alt="cart" id="header-cart__img">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="header-nav">
+              <div class="header-nav__menu">
+                <li><a href="#">Мобильные телефоны</a></li>
+                <li><a href="#">Гаджеты</a></li>
+                <li><a href="#">Аксессуары</a></li>
+                <li><a href="#">Компьютеры</a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="header-slider">
+              <h1>Закажи любой товар в один клик!</h1>
+              <button class="header-slider__btn">Узнать подробнее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--End Header-->
+
+    <!--Main-->
+    <main class="main">
+      <div class="container">
+      <h3 class="main-title">Список товаров</h3>
+        <div class="row">
+            <div class="goods"></div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card mb-4">
+              <h4 class="product-card__title">HONOR 20 4GB/64GB</h4>
+              <img src="./img/img1.jpeg" alt="Honor 20" class="product-card__img">
+              <p class="product-card__description">Android, экран 6.4" AMOLED (1080x2340), Exynos 9610, ОЗУ 4 ГБ,
+                  флэш-память 64 ГБ, карты памяти, камера 25 Мп, аккумулятор 4000 мАч, 2 SIM</p>
+              <div class="product-card__price">799,00 р.</div>
+              <button class="product-card__btn">В Карзину</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card mb-4">
+              <h4 class="product-card__title">Samsung Galaxy A50</h4>
+              <img src="./img/img2.jpeg" alt="Samsung Galaxy A50" class="product-card__img">
+              <p class="product-card__description">Android, экран 6.4" AMOLED (1080x2340), Exynos 9610, ОЗУ 4 ГБ,
+              флэш-память 64 ГБ, карты памяти, камера 25 Мп, аккумулятор 4000 мАч, 2 SIM</p>
+              <div class="product-card__price">554,00 р.</div>
+              <button class="product-card__btn">В Карзину</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card mb-4">
+              <h4 class="product-card__title">Xiaomi Redmi Note 7</h4>
+              <img src="./img/img3.jpeg" alt="Xiaomi Redmi Note 7" class="product-card__img">
+              <p class="product-card__description">Android, экран 6.4" AMOLED (1080x2340), Exynos 9610, ОЗУ 4 ГБ,
+                  флэш-память 64 ГБ, карты памяти, камера 25 Мп, аккумулятор 4000 мАч, 2 SIM</p>
+              <div class="product-card__price">428,00 р.</div>
+              <button class="product-card__btn">В Карзину</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card mb-4">
+              <h4 class="product-card__title">Samsung Galaxy S10e</h4>
+              <img src="./img/img4.jpeg" alt="Samsung Galaxy S10e" class="product-card__img">
+              <p class="product-card__description">Android, экран 6.4" AMOLED (1080x2340), Exynos 9610, ОЗУ 4 ГБ,
+                  флэш-память 64 ГБ, карты памяти, камера 25 Мп, аккумулятор 4000 мАч, 2 SIM</p>
+              <div class="product-card__price">1250,00 р.</div>
+              <button class="product-card__btn">В Карзину</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card  mb-4">
+              <h4 class="product-card__title">Samsung Galaxy A10</h4>
+              <img src="./img/img5.jpeg" alt="Samsung Galaxy A10" class="product-card__img">
+              <p class="product-card__description">Android, экран 6.4" AMOLED (1080x2340), Exynos 9610, ОЗУ 4 ГБ,
+                  флэш-память 64 ГБ, карты памяти, камера 25 Мп, аккумулятор 4000 мАч, 2 SIM</p>
+              <div class="product-card__price">299,00 р.</div>
+              <button class="product-card__btn">В Карзину</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="product-card mb-4">
+              <h4 class="product-card__title">Samsung Galaxy A40</h4>
+              <img src="./img/img5.jpeg" alt="Samsung Galaxy A40" class="product-card__img">
+              <p class="product-card__description">Android, экран 6.4" AMOLED (1080x2340), Exynos 9610, ОЗУ 4 ГБ,
+                  флэш-память 64 ГБ, карты памяти, камера 25 Мп, аккумулятор 4000 мАч, 2 SIM</p>
+              <div class="product-card__price">500,00 р.</div>
+              <button class="product-card__btn">В Карзину</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--End Main-->
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-4 col-sm-12">
+            <div class="footer-content__social">
+              <li><a href=""><i class="fab fa-vk"></i></a></li>
+              <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+              <li><a href=""><i class="fab fa-youtube-square"></i></a></li>
+              <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="footer-nav">
+              <div class="footer-nav__menu">
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Обратная связь</a></li>
+                <li><a href="#">О нас</a></li>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="footer-contact">
+              <p class="footer-contact__title">Мы на связи:</p>
+              <div class="footer-contact__phone">+375 (33) 686-05-54</div>
+              <div class="footer-contact__phone">+375 (44) 686-05-54</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+    <!--End Footer-->
+    <!--Modal-->
+    <div class="modal">
+        <div class="modal-head">
+          <h4 class="modal-head__title">Корзина</h4>
+          <div class="modal-close"><i class="fas fa-times"></i></div>
+        </div>
+        <div class="modal-body"></div>
+    </div>
+    <!--End Modal-->
+    
+
+    <script src="./js/main.js"></script>
+    <script src="./db/db.json"></script>
+</body>
+</html>
