@@ -1,8 +1,37 @@
 [
   {
-    "name" : "baked beans",
-    "price" : 0.40,
-    "image" : "beans.jpg",
-    "type" : "vegetables"
+    "name" : "HONOR 20 4GB/64GB",
+    "image" : "./img/img1.jpeg",
+    "price" : "799,00 р."
+  },
+
+  {
+    "name" : "Samsung Galaxy A50",
+    "image" : "./img/img2.jpeg",
+    "price" : "554,00 р."
+  },
+
+  {
+    "name" : "Xiaomi Redmi Note 7",
+    "image" : "./img/img3.jpeg",
+    "price" : "428,00 р."
+  },
+
+  {
+    "name" : "Samsung Galaxy S10e",
+    "image" : "./img/img4.jpeg",
+    "price" : "1250,00 р."
+  },
+
+  {
+    "name" : "Samsung Galaxy A10",
+    "image" : "./img/img5.jpeg",
+    "price" : "299,00 р."
+  },
+
+  {
+    "name" : "Samsung Galaxy A40",
+    "image" : "./img/img5.jpeg",
+    "price" : "500,00 р."
   }
 ]
