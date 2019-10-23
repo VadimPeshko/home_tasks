@@ -36,8 +36,10 @@
           </div>
           <div class="col-lg-3 col-sm-12">
             <div class="header-cart">
-              <img src="./img/shopping-cart.svg" alt="cart" id="header-cart__img">
-              <span>0</span>
+              <div class="header-cart__box">
+                <img src="./img/shopping-cart.svg" alt="cart" id="header-cart__img">
+                <span class="header-cart__text">0</span>
+              </div>
             </div>
           </div>
         </div>
@@ -45,10 +47,10 @@
           <div class="col">
             <div class="header-nav">
               <div class="header-nav__menu">
-                <li><a href="#">Мобильные телефоны</a></li>
-                <li><a href="#">Гаджеты</a></li>
-                <li><a href="#">Аксессуары</a></li>
-                <li><a href="#">Компьютеры</a></li>
+                <li><a href="#" class="link">Мобильные телефоны</a></li>
+                <li><a href="#" class="link">Гаджеты</a></li>
+                <li><a href="#" class="link">Аксессуары</a></li>
+                <li><a href="#" class="link">Ноутбуки</a></li>
               </div>
             </div>
           </div>
@@ -115,8 +117,10 @@
     <div class="modal">
         <div class="modal-head">
           <h4 class="modal-head__title">Корзина</h4>
+          <div class="modal-head__subtitle">Общая сумма <span>0</span> рублей</div>
           <div class="modal-close"><i class="fas fa-times"></i></div>
-            <div class="modal-body col-lg-4 col-sm-6"></div>
+            <div class="modal-body row"></div>
+            <button class="modal-btn mt-4">Оформить заказ</button>
         </div>
     </div>
     <!--End Modal-->

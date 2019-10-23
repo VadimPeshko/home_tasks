@@ -1,37 +1,122 @@
 [
   {
+    "category" : "Мобильные телефоны",
     "name" : "HONOR 20 4GB/64GB",
-    "image" : "./img/img1.jpeg",
-    "price" : "799,00 р."
+    "image" : "./img/phone/img1.jpeg",
+    "title" : "Android, экран 6.4 AMOLED (1080x2340), Exynos 9610, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 25 Мп",
+    "price" : "799,00"
   },
 
   {
+    "category" : "Мобильные телефоны",
     "name" : "Samsung Galaxy A50",
-    "image" : "./img/img2.jpeg",
-    "price" : "554,00 р."
+    "image" : "./img/phone/img2.jpeg",
+    "title" : "Android, экран 6.4 AMOLED (1080x2340), Exynos 9610, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 25 Мп",
+    "price" : "554,00"
   },
 
   {
+    "category" : "Мобильные телефоны",
     "name" : "Xiaomi Redmi Note 7",
-    "image" : "./img/img3.jpeg",
-    "price" : "428,00 р."
+    "image" : "./img/phone/img3.jpeg",
+    "title" : "Android, экран 6.3 IPS (1080x2340), Snapdragon 660 MSM8956 Plus, ОЗУ 4 ГБ, флэш-память 64 ГБ, камера 48 Мп",
+    "price" : "428,00"
   },
 
   {
+    "category" : "Мобильные телефоны",
     "name" : "Samsung Galaxy S10e",
-    "image" : "./img/img4.jpeg",
-    "price" : "1250,00 р."
+    "image" : "./img/phone/img4.jpeg",
+    "title" : "Android, экран 5.8 AMOLED (1080x2280), Exynos 9820, ОЗУ 6 ГБ, флэш-память 128 ГБ, карты памяти, камера 12 Мп",
+    "price" : "1250,00"
   },
 
   {
+    "category" : "Мобильные телефоны",
     "name" : "Samsung Galaxy A10",
-    "image" : "./img/img5.jpeg",
-    "price" : "299,00 р."
+    "image" : "./img/phone/img5.jpeg",
+    "title" : "Android, экран 6.2 IPS (720x1520), Exynos 7884, ОЗУ 2 ГБ, флэш-память 32 ГБ, карты памяти, камера 13 Мп",
+    "price" : "299,00"
   },
 
   {
+    "category" : "Мобильные телефоны",
     "name" : "Samsung Galaxy A40",
-    "image" : "./img/img5.jpeg",
-    "price" : "500,00 р."
+    "image" : "./img/phone/img6.jpeg",
+    "title" : "Android, экран 5.9 AMOLED (1080x2340), Exynos 7904, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 16 Мп",
+    "price" : "500,00"
+  },
+
+  {
+    "category" : "Гаджеты",
+    "name" : "Apple Watch Series 3",
+    "image" : "./img/gadgets/img1.jpeg",
+    "title" : "асы-компаньон, поддержка iOS, экран AMOLED 1.78 (368x448), шагомер, пульсометр, время работы: 18 часов",
+    "price" : "820,00"
+  },
+
+  {
+    "category" : "Гаджеты",
+    "name" : "Apple Watch Series 5",
+    "image" : "./img/gadgets/img2.jpeg",
+    "title" : "часы-компаньон, поддержка iOS, экран AMOLED 1.57 (324x394), шагомер, пульсометр, время работы: 18 часов",
+    "price" : "1070,00"
+  },
+
+  {
+    "category" : "Гаджеты",
+    "name" : "Apple Watch Series 5",
+    "image" : "./img/gadgets/img3.jpeg",
+    "title" : "часы-компаньон, поддержка iOS, экран AMOLED 1.5 (272x340), шагомер, пульсометр, время работы: 18 часов",
+    "price" : "141,00"
+  },
+
+  {
+    "category" : "Аксессуары",
+    "name" : "SVEN AP-U980MV",
+    "image" : "./img/accessories/img1.jpeg",
+    "title" : "наушники с микрофоном, геймерские, оформление закрытое, излучатель 50 мм, 20-20000 Гц, 32 Ом, кабель 2.2 м",
+    "price" : "67,00"
+  },
+
+  {
+    "category" : "Аксессуары",
+    "name" : "Elari EarDrops",
+    "image" : "./img/accessories/img2.jpeg",
+    "title" : "беспроводные наушники с микрофоном, портативные, оформление закрытое, 20-20000 Гц",
+    "price" : "66,00"
+  },
+
+  {
+    "category" : "Ноутбуки",
+    "name" : "Lenovo IdeaPad L340",
+    "image" : "./img/notebook/img1.jpeg",
+    "title" : "15.6 1920 x 1080 TN+Film, AMD Ryzen 3 3200U 2600 МГц, 4 ГБ, SSD 128 ГБ, граф. адаптер: встроенный, без ОС",
+    "price" : "928,00"
+  },
+
+  {
+    "category" : "Ноутбуки",
+    "name" : "Xiaomi RedmiBook 14",
+    "image" : "./img/notebook/img2.jpeg",
+    "title" : "14.0 1920 x 1080 IPS, Intel Core i5 8265U 1600 МГц, 8 ГБ, SSD 256 ГБ, граф. адаптер: NVIDIA GeForce MX250 2 ГБ",
+    "price" : "1599,00"
+  },
+
+  {
+    "category" : "Ноутбуки",
+    "name" : "ASUS ZenBook Pro 14",
+    "image" : "./img/notebook/img3.jpeg",
+    "title" : "14.0 1920 x 1080 IPS, сенсорный, Intel Core i7 8565U 1800 МГц, 8 ГБ, SSD 512 ГБ, граф. адаптер: NVIDIA GeForce GTX 1050",
+    "price" : "2920,00"
+  },
+
+  {
+    "category" : "Ноутбуки",
+    "name" : "HP Gaming Pavilion",
+    "image" : "./img/notebook/img4.jpeg",
+    "title" : "5.6 1920 x 1080 IPS, Intel Core i5 9300H 2400 МГц, 8 ГБ, HDD+SSD 1000+256 ГБ, граф. адаптер: NVIDIA GeForce GTX 1650",
+    "price" : "2410,00"
   }
+
 ]
