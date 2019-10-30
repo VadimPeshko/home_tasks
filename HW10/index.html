@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap" rel="stylesheet">
-  <title>Home work 10</title>
+  <title>ESTORE</title>
 </head>
 <body>
   
@@ -96,7 +96,7 @@
               <div class="footer-nav__menu">
                 <li><a href="#">Оплата</a></li>
                 <li><a href="#">Доставка</a></li>
-                <li><a href="#">Обратная связь</a></li>
+                <li><a href="#" class="footer-nav__about">Обратная связь</a></li>
                 <li><a href="#">О нас</a></li>
               </div>
             </div>
@@ -113,17 +113,45 @@
       </div>
     </footer>
     <!--End Footer-->
+
     <!--Modal-->
     <div class="modal">
-        <div class="modal-head">
-          <h4 class="modal-head__title">Корзина</h4>
-          <div class="modal-head__subtitle">Общая сумма <span>0</span> рублей</div>
-          <div class="modal-close"><i class="fas fa-times"></i></div>
-            <div class="modal-body row"></div>
-            <button class="modal-btn mt-4">Оформить заказ</button>
-        </div>
+      <div class="modal-head">
+        <h4 class="modal-head__title">Корзина</h4>
+        <div class="modal-head__subtitle">Общая сумма <span>0</span> рублей</div>
+        <div class="modal-close"><i class="fas fa-times"></i></div>
+        <div class="modal-body row"></div>
+        <button class="modal-btn mt-4">Оформить заказ</button>
+      </div>
     </div>
     <!--End Modal-->
+
+    <!--Modal Form-->
+    <div class="aboutus">
+      <div class="aboutus-head">
+        <h4 class="aboutus-head__title">Напиши нам</h4>
+        <div class="aboutus-close"><i class="fas fa-times"></i></div>
+        <div class="aboutus-body">
+          <form id="form" class="aboutus-body__form">
+            <div class="col-lg-12 mb-4">
+              <label for="name">Имя</label>
+              <input type="text" id="name" class="aboutus-body__input" placeholder="Введите ваше имя" maxlength="15">
+            </div>
+            <div class="col-lg-12 mb-4">
+              <label for="email">E-mail</label>
+              <input type="text" id="email" class="aboutus-body__input" placeholder="Введите ваш E-mail">
+            </div>
+            <div class="col-lg-12 mb-4">
+              <label for="text">Сообщение</label>
+              <textarea name="text" id="text" class="aboutus-body__input text-area"></textarea>
+            </div>
+            <button type="submit" class="aboutus-btn mt-4">Отправить</button>
+            <button type="reset" class="aboutus-btn mt-4">Очистить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--End Modal Form-->
     
     <script src="./db/db.json"></script>
     <script src="./js/main.js"></script>
